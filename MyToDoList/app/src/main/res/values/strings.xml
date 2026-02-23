@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">My To-Do List</string>
+    <string name="main_screen_title">Мой список дел</string>
+    <string name="create_task_button">Создать задачу</string>
+    <string name="view_tasks_button">Просмотр задач</string>
+    <string name="task_statistics_title">Статистика задач</string>
+    <string name="low_priority_tasks">Количество задач низкого приоритета:</string>
+    <string name="medium_priority_tasks">Количество задач среднего приоритета:</string>
+    <string name="high_priority_tasks">Количество задач высокого приоритета:</string>
+    <string name="settings_title">Настройки</string>
+    <string name="language_section_title">Язык</string>
+    <string name="russian_language">Русский</string>
+    <string name="english_language">English</string>
+    <string name="text_size_section_title">Размер текста</string>
+    <string name="text_size_small">Мелкий</string>
+    <string name="text_size_medium">Средний</string>
+    <string name="text_size_large">Крупный</string>
+    <string name="text_preview">Пример текста для предварительного просмотра</string>
+    
+    <string name="add_task_title">Добавить задачу</string>
+    <string name="edit_task_title">Редактировать задачу</string>
+    <string name="task_details_title">Детали задачи</string>
+    <string name="task_name_label">Название</string>
+    <string name="task_name_hint">Название</string>
+    <string name="task_description_label">Описание</string>
+    <string name="task_description_hint">Описание</string>
+    <string name="task_date_label">Дата</string>
+    <string name="task_priority_label">Приоритет</string>
+    <string name="save_button">Сохранить</string>
+    <string name="edit_button">Редактировать</string>
+    <string name="delete_button">Удалить</string>
+    
+    <string name="priority_low">Низкий</string>
+    <string name="priority_medium">Средний</string>
+    <string name="priority_high">Высокий</string>
+    
+    <string name="status_active">Активна</string>
+    <string name="status_completed">Выполнена</string>
+
+    <!-- Task List Screen -->
+    <string name="search_hint">Поиск задач…</string>
+    <string name="filter_sort_button">Фильтр по приоритету &amp; Сортировка</string>
+    <string name="filter_by_priority_title">ФИЛЬТР ПО ПРИОРИТЕТУ</string>
+    <string name="sort_title">СОРТИРОВКА</string>
+    <string name="filter_all">Все</string>
+
+    <string-array name="sort_options">
+        <item>Дата (Oldest First)</item>
+        <item>Дата (Newest First)</item>
+        <item>По алфавиту (A-Z)</item>
+        <item>По алфавиту (Z-A)</item>
+        <item>Приоритет (High to Low)</item>
+        <item>Приоритет (Low to High)</item>
+    </string-array>
+</resources>

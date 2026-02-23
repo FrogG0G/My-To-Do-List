@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Базовая тема для темного режима -->
+    <style name="Base.Theme.MyToDoList" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Основные цвета, адаптированные для темного фона -->
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryVariant">@color/primary_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Вторичные цвета -->
+        <item name="colorSecondary">@color/cyan_button</item>
+        <item name="colorSecondaryVariant">@color/cyan_button</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- Цвет фона и системной навигации для темного режима -->
+        <item name="android:windowBackground">@color/background_light</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+    </style>
+
+    <!-- Финальная тема, наследующая базу -->
+    <style name="Theme.MyToDoList" parent="Base.Theme.MyToDoList" />
+</resources>
